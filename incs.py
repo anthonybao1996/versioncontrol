@@ -37,8 +37,8 @@ def inc5(x: int) -> int:
 
 def inc6(x: int) -> str: 
     ''' TODO takes an int, adds 6 to it, and casts it to string''' 
-    # TODO
-    return None
+    x += 6
+    return str(x)
 
 def inc7(x: int) -> str: 
     ''' TODO takes an int, adds 7 to it, and casts it to string ''' 
